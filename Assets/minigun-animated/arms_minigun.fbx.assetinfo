@@ -1,0 +1,181 @@
+{
+    "values": [
+        {
+            "$type": "ActorGroup",
+            "name": "arms_minigun",
+            "selectedRootBone": "RootNode",
+            "id": "{0D4624EB-6573-5674-9424-09D517508E2F}"
+        },
+        {
+            "$type": "{5B03C8E6-8CEE-4DA0-A7FA-CD88689DD45B} MeshGroup",
+            "id": "{B39C400F-6E12-50AE-8AD5-DE4B53552E80}",
+            "name": "arms_minigun",
+            "NodeSelectionList": {
+                "unselectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Main",
+                    "RootNode.arms",
+                    "RootNode.arms.arms_1",
+                    "RootNode.arms.arms_2",
+                    "RootNode.Main.root",
+                    "RootNode.Main.root.L_arm",
+                    "RootNode.Main.root.R_arm",
+                    "RootNode.Main.root.L_arm.L_elbow",
+                    "RootNode.Main.root.R_arm.R_elbow",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2.L_thumb3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2.L_point3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2.L_middle3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2.R_thumb3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2.R_point3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2.R_middle3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2.L_thumb3.L_thumb",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2.L_point3.L_point",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2.L_middle3.L_middle",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2.L_ring3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2.L_pink3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2.R_thumb3.R_thumb",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2.R_point3.R_point",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2.R_middle3.R_middle",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2.R_ring3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2.R_pink3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2.L_thumb3.L_thumb.L_thumb_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2.L_point3.L_point.L_point_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2.L_middle3.L_middle.L_middle_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2.L_ring3.L_ring",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2.L_pink3.L_pink",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2.R_thumb3.R_thumb.R_thumb_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2.R_point3.R_point.R_point_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2.R_middle3.R_middle.R_middle_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2.R_ring3.R_ring",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2.R_pink3.R_pink",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2.L_ring3.L_ring.L_ring_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2.L_pink3.L_pink.L_pink_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2.R_ring3.R_ring.R_ring_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2.R_pink3.R_pink.R_pink_end"
+                ]
+            }
+        },
+        {
+            "$type": "MotionGroup",
+            "name": "arms_minigun",
+            "selectedRootBone": "RootNode.Main",
+            "id": "{325976C1-6F4D-50A3-B39A-C8415A81F85A}",
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "MotionSamplingRule"
+                    }
+                ]
+            }
+        },
+        {
+            "$type": "{07B356B7-3635-40B5-878A-FAC4EFD5AD86} MeshGroup",
+            "name": "arms_minigun",
+            "nodeSelectionList": {
+                "selectedNodes": [
+                    {},
+                    "RootNode",
+                    "RootNode.Main",
+                    "RootNode.arms",
+                    "RootNode.arms.arms_1",
+                    "RootNode.arms.arms_2",
+                    "RootNode.Main.root",
+                    "RootNode.Main.root.L_arm",
+                    "RootNode.Main.root.R_arm",
+                    "RootNode.Main.root.L_arm.L_elbow",
+                    "RootNode.Main.root.R_arm.R_elbow",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2.L_thumb3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2.L_point3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2.L_middle3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2.R_thumb3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2.R_point3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2.R_middle3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2.L_thumb3.L_thumb",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2.L_point3.L_point",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2.L_middle3.L_middle",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2.L_ring3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2.L_pink3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2.R_thumb3.R_thumb",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2.R_point3.R_point",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2.R_middle3.R_middle",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2.R_ring3",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2.R_pink3",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_thumb1.L_thumb2.L_thumb3.L_thumb.L_thumb_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_point1.L_point2.L_point3.L_point.L_point_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.L_middle1.L_middle2.L_middle3.L_middle.L_middle_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2.L_ring3.L_ring",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2.L_pink3.L_pink",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_thumb1.R_thumb2.R_thumb3.R_thumb.R_thumb_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_point1.R_point2.R_point3.R_point.R_point_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.R_middle1.R_middle2.R_middle3.R_middle.R_middle_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2.R_ring3.R_ring",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2.R_pink3.R_pink",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_ring1.L_ring2.L_ring3.L_ring.L_ring_end",
+                    "RootNode.Main.root.L_arm.L_elbow.L_wrist.palm.L_pink1.L_pink2.L_pink3.L_pink.L_pink_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_ring1.R_ring2.R_ring3.R_ring.R_ring_end",
+                    "RootNode.Main.root.R_arm.R_elbow.R_wrist.palm_2.R_pink1.R_pink2.R_pink3.R_pink.R_pink_end"
+                ]
+            },
+            "rules": {
+                "rules": [
+                    {
+                        "$type": "SkinRule"
+                    },
+                    {
+                        "$type": "MaterialRule"
+                    }
+                ]
+            },
+            "id": "{C0E5FDED-3D65-5F8B-8641-3FB2139D6501}"
+        }
+    ]
+}
