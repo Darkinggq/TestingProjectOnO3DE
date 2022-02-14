@@ -23985,37 +23985,6 @@
                                                 "guid": "{29E0D370-FAB8-56BD-9AA5-711B0AE15B4D}"
                                             },
                                             "assetHint": "assets/arenanet-character/an_char_an2013intern_shader.azmaterial"
-                                        },
-                                        "PropertyOverrides": {
-                                            "normal.flipY": {
-                                                "$type": "bool",
-                                                "Value": true
-                                            },
-                                            "normal.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{77CFCD30-F22D-52BF-B011-015BF8E2CFC5}",
-                                                    "subId": 1000
-                                                }
-                                            },
-                                            "baseColor.useTexture": {
-                                                "$type": "bool",
-                                                "Value": true
-                                            },
-                                            "roughness.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{2E389724-8C9F-5738-BDB8-0C11A4114B32}",
-                                                    "subId": 1000
-                                                }
-                                            },
-                                            "baseColor.textureMap": {
-                                                "$type": "AssetId",
-                                                "Value": {
-                                                    "guid": "{66014CF9-67DB-5CF6-BA96-CE4654D3D6C3}",
-                                                    "subId": 1000
-                                                }
-                                            }
                                         }
                                     }
                                 }

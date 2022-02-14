@@ -8,12 +8,16 @@
             0.800000011920929,
             1.0
         ],
+        "baseColor.textureMap": "Assets/arenanet-character/textures/anIntn_albedo.png",
         "emissive.color": [
             0.0,
             0.0,
             0.0,
             1.0
         ],
-        "opacity.factor": 1.0
+        "normal.flipY": true,
+        "normal.textureMap": "Assets/arenanet-character/textures/anIntn_normal.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "Assets/arenanet-character/textures/anIntn_roughness.png"
     }
 }
