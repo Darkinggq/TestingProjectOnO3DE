@@ -21,8 +21,7 @@
                 "Child Entity Order": [
                     "Entity_[1176639161715]",
                     "Entity_[365371382082]",
-                    "Entity_[833522817346]",
-                    "Entity_[477148581544]"
+                    "Entity_[833522817346]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -672,60 +671,6 @@
                 }
             }
         },
-        "Entity_[477148581544]": {
-            "Id": "Entity_[477148581544]",
-            "Name": "Entity2",
-            "Components": {
-                "Component_[10858365279753859899]": {
-                    "$type": "EditorInspectorComponent",
-                    "Id": 10858365279753859899
-                },
-                "Component_[13995668513784287473]": {
-                    "$type": "EditorDisabledCompositionComponent",
-                    "Id": 13995668513784287473
-                },
-                "Component_[1709246871692221784]": {
-                    "$type": "SelectionComponent",
-                    "Id": 1709246871692221784
-                },
-                "Component_[17262402295349655587]": {
-                    "$type": "EditorPendingCompositionComponent",
-                    "Id": 17262402295349655587
-                },
-                "Component_[2733093499671086362]": {
-                    "$type": "EditorVisibilityComponent",
-                    "Id": 2733093499671086362
-                },
-                "Component_[3792533219593365500]": {
-                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
-                    "Id": 3792533219593365500,
-                    "Parent Entity": "Entity_[1146574390643]",
-                    "Transform Data": {
-                        "Translate": [
-                            -0.7525327205657959,
-                            26.20743179321289,
-                            2.384185791015625e-7
-                        ]
-                    }
-                },
-                "Component_[461468572188476215]": {
-                    "$type": "EditorEntitySortComponent",
-                    "Id": 461468572188476215
-                },
-                "Component_[5215080496365077374]": {
-                    "$type": "EditorEntityIconComponent",
-                    "Id": 5215080496365077374
-                },
-                "Component_[8149793076222047260]": {
-                    "$type": "EditorLockComponent",
-                    "Id": 8149793076222047260
-                },
-                "Component_[8687082100676277400]": {
-                    "$type": "EditorOnlyEntityComponent",
-                    "Id": 8687082100676277400
-                }
-            }
-        },
         "Entity_[833522817346]": {
             "Id": "Entity_[833522817346]",
             "Name": "weapon_base",
@@ -785,9 +730,46 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 5271720859388872435
                 },
+                "Component_[6992040674827777894]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 6992040674827777894,
+                    "m_name": "Test.scriptcanvas",
+                    "runtimeDataIsValid": true,
+                    "runtimeDataOverrides": {
+                        "source": {
+                            "id": "{74328A1B-1198-5869-860C-ABD1E7412DF0}",
+                            "path": "/home/evilo/O3DE/Projects/TestingProjectOnO3DE/scriptcanvas/Test.scriptcanvas"
+                        }
+                    },
+                    "sourceHandle": {
+                        "id": "{74328A1B-1198-5869-860C-ABD1E7412DF0}",
+                        "path": "/home/evilo/O3DE/Projects/TestingProjectOnO3DE/scriptcanvas/Test.scriptcanvas"
+                    }
+                },
                 "Component_[7269920329911186241]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 7269920329911186241
+                },
+                "Component_[7505870774509760226]": {
+                    "$type": "ScriptEditorComponent",
+                    "Id": 7505870774509760226,
+                    "ScriptComponent": {
+                        "Script": {
+                            "assetId": {
+                                "guid": "{C32C9ED7-5E77-5CF5-9589-CB3CE730D882}",
+                                "subId": 1
+                            },
+                            "loadBehavior": "QueueLoad",
+                            "assetHint": "scripts/test.luac"
+                        }
+                    },
+                    "ScriptAsset": {
+                        "assetId": {
+                            "guid": "{C32C9ED7-5E77-5CF5-9589-CB3CE730D882}",
+                            "subId": 1
+                        },
+                        "assetHint": "scripts/test.luac"
+                    }
                 },
                 "Component_[8777769699583918370]": {
                     "$type": "EditorInspectorComponent",
