@@ -22,7 +22,8 @@
                     "Entity_[708974214891]",
                     "Entity_[1176639161715]",
                     "Entity_[365371382082]",
-                    "Entity_[833522817346]"
+                    "Entity_[833522817346]",
+                    "Entity_[446686386596]"
                 ]
             },
             "Component_[15230859088967841193]": {
@@ -211,7 +212,7 @@
                     "Controller": {
                         "Configuration": {
                             "Field of View": 50.0,
-                            "EditorEntityId": 17577849108474020288
+                            "EditorEntityId": 13236372796434822637
                         }
                     }
                 },
@@ -23931,6 +23932,135 @@
                 "Component_[6464538871692425878]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 6464538871692425878
+                }
+            }
+        },
+        "Entity_[446686386596]": {
+            "Id": "Entity_[446686386596]",
+            "Name": "Boss",
+            "Components": {
+                "Component_[1036441555483215386]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 1036441555483215386,
+                    "Parent Entity": "Entity_[1146574390643]",
+                    "Transform Data": {
+                        "Translate": [
+                            1.6152939796447754,
+                            36.72663879394531,
+                            0.0
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            169.31796264648438
+                        ],
+                        "UniformScale": 130.0
+                    }
+                },
+                "Component_[10518800848629859159]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 10518800848629859159
+                },
+                "Component_[1155317387254678708]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1155317387254678708
+                },
+                "Component_[14224931955501472607]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14224931955501472607
+                },
+                "Component_[14706282928829175505]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14706282928829175505,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 144145350
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{29E0D370-FAB8-56BD-9AA5-711B0AE15B4D}"
+                                            },
+                                            "assetHint": "assets/arenanet-character/an_char_an2013intern_shader.azmaterial"
+                                        },
+                                        "PropertyOverrides": {
+                                            "normal.flipY": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "normal.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{77CFCD30-F22D-52BF-B011-015BF8E2CFC5}",
+                                                    "subId": 1000
+                                                }
+                                            },
+                                            "baseColor.useTexture": {
+                                                "$type": "bool",
+                                                "Value": true
+                                            },
+                                            "roughness.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{2E389724-8C9F-5738-BDB8-0C11A4114B32}",
+                                                    "subId": 1000
+                                                }
+                                            },
+                                            "baseColor.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{66014CF9-67DB-5CF6-BA96-CE4654D3D6C3}",
+                                                    "subId": 1000
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[14955338133321011639]": {
+                    "$type": "SelectionComponent",
+                    "Id": 14955338133321011639
+                },
+                "Component_[16264097409511916940]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16264097409511916940
+                },
+                "Component_[3135011406167800725]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3135011406167800725,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{BAA96395-FC69-5379-9A4A-2DD7E19151EB}",
+                                    "subId": 279586460
+                                },
+                                "assetHint": "assets/arenanet-character/an_char.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[332315685647028699]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 332315685647028699
+                },
+                "Component_[4733258682554345605]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4733258682554345605
+                },
+                "Component_[5127061895558427152]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5127061895558427152
+                },
+                "Component_[5221241761255001583]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5221241761255001583
                 }
             }
         },
